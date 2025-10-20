@@ -1,35 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
 
     <title>Portfolio</title>
 </head>
+
 <body>
-    <!--NAVBAR-->
-    <nav></nav>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+            <a href="/">Adam Rahman</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/agh90" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:aghassan90@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+
+    </nav>
 
     <main>
-        <!--SECTION 1: Intro-->
-        <section></section>
+        <!-- SECTION 1: Intro -->
+        <section class="intro-section">
+            <div class="text">
+                <h2>Hi, I'm Adam✌️</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi reprehenderit doloribus beatae
+                    repellat suscipit amet non provident nostrum, incidunt voluptatum voluptates sed voluptatem qui?
+                    Ratione, sint expedita distinctio unde sequi a aliquid aspernatur, eligendi commodi quis natus
+                    delectus voluptatem. Distinctio quis eum quae praesentium doloribus nihil odit tenetur quibusdam
+                    voluptates..</p>
 
-        <!--SECTION 2: Skills-->
-        <section></section>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
 
-        <!--SECTION 3: Testimony-->
-        <section></section>
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
 
-        <!--SECTION 4: Contact-->
-        <section></section>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/anBnIn0~3.jpeg" alt="Adam Rahman Headshot">
+            </div>
+
+        </section>
+
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis fugiat quibusdam qui, minima vero
+                quaerat distinctio rem alias vel voluptatum consequuntur fuga odio cumque pariatur. Corrupti doloribus
+                ut quis distinctio.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/javascript-logo.webp" alt="javascript logo">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/node-logo.webp" alt="node logo">
+                    <span>Node.js</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/react-logo.webp" alt="react logo">
+                    <span>React.js</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Testimony -->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+
+            <div class="group">
+                <div class="person-details">
+                    <img src="images/testimony-headshot.webp" alt="">
+                    <p>John Doe</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+
+                <div class="text">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vero soluta cumque odio dolor a, aut
+                    id
+                    vel esse quis optio quam recusandae illum qui architecto iure labore! Reiciendis illo dolore neque
+                    aperiam repellat, culpa quia, quisquam doloremque quibusdam veniam explicabo est deserunt natus,
+                    unde sunt. Assumenda sapiente mollitia quam."
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. A labore perspiciatis doloremque illo et
+                    molestias unde nisi aperiam, qui ipsa, quos nam ducimus natus reprehenderit eveniet! Corporis
+                    laudantium iure aspernatur inventore voluptatem unde eos magni ab, distinctio eius dicta, sed
+                    consequatur ullam pariatur, minima tempora alias. Earum rem architecto similique?
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
     </main>
 </body>
-</html> 
+
+</html>
